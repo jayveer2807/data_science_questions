@@ -1,0 +1,228 @@
+1. write equation for linear regression.
+2. write equation for logistic regression
+3. how will You calculate AUCROC value manually.
+4. what performance metrics you used in model building
+5. Assumptions of linear regression.
+6. differt ways you used to treat missing values and outliers.
+7 . feature selection
+8 . explain decision tree. 
+9 . difference between k-means and knn
+10. what is k in knn
+11. Explain every step you did in your project. (most important)
+12. Confusion matrics.
+13. why we use cross-validation
+14. what is pruning of decision tree and why we do it.
+15. If we have 100gb of data , how will you manage to build model on your machine.
+16. central limit theorm.
+
+18.	How do I create linear models if I have very high dimensional data? (Regularization solves this but mostly want to listen PCA/ removing correlated variables etc.) 
+19.	What if learning rate is too high or too small while minimizing an objective function using gradient descent?
+
+31.	Suppose I have two variables which form concentric circles. Which transformation should be applied so that k means can be applied?
+32.	What are dimensionality reduction techniques?
+33.	What is PCA?
+34.	How do we interpret components of PCA? What do they represent?
+35.	What is Non Negative matrix Factorization?
+36.	How do you visualize high dimensional data?
+37.	When to use PCA or Non Negative Matrix factorization?
+38.	 What is difference between likelihood and probability?
+39.	What is maximum likelihood estimations algorithm?
+40.	What are other clustering techniques if K means does not work?
+41.	What is K median algorithm?
+42.	What is Decision Tree?  ( How split is decided )
+43.	Why they are prone to overfitting? How do we overcome this problem?
+44.	What is Bagging and Boosting?
+45.	Which one is more prone to overfitting?
+46.	What is Random forest?
+47.	How variable importance is calculated in Random Forest?
+48.	How will the testing metrics be impacted if we create 100, 1000, 10000, 100000 and so on till billion tress. AT every step how will it change?
+49.	 How does boosting works?
+50.	Difference between Gradient Boosting | XG Boost |Light GBM and Cat boost? 
+51.	Why XG boost is so fast?
+
+52.	How does parallel processing in XG Boost works? (Remember it is boosting so tree are dependent on the above tree )
+53.	Why Light GBM is faster than XG Boost?
+54.	What is difference between parameters and hyper parameters?
+55.	What are different hyperpaarmeters in all the above algorithms?
+56.	How do you find best hyper-parameters? 
+57.	What is Bias Variance tradeoff?
+58.	What is Overfitting under fitting and best fit?
+59.	How do you identify whether model is fitting well or over fitted or under fitting?
+60.	What is the difference between objective and evaluation functions?
+61.	How do you select the best evaluation metrics?
+62.	What is curse of dimensionality?
+63.	How do interpret coefficient of logistic regression? 
+64.	What are p values? 
+65.	Describe the math’s of logistic regression?
+66.	How do interpret coeffs of linear regression?
+67.	How does decision tree work in case of regression?
+68.	How does Catboost tackle categorical variables ?
+69.	What happens to the coeffs if you do regularization but variables are highly correlated variables?
+70.	Assumptions of linear regression?
+
+How to do feature Engineering in SVM
+What are disadvantages of Naive Bayes over Logistic Regression
+Explian Precision and Recall
+
+What are the key differences between Regression and classification?
+Define Elbow method?
+How multilayer perception works?
+
+Q.7. y=ax+b is a linear model. Can you tell me if y=ax^2 + bx + c is also a linear model ?
+Ans. y=ax^2 + bx + c is also linear as x^2 can also be represented as X. 
+So, the actual relationship might not be linear but the model fitted is linear
+
+Q.8. What is SSE and RMSE ? Why to use RMSE and not SSE ?
+Ans. RMSE has mean value but SSE is total value.
+
+
+Q.9. Does a low RMSE denote overfitting ?
+Q.10. How to resolve overfitting ?
+Ans. 1. Cross-validation
+	2. Regularization
+	3. Ensembling
+Q.11. Why knn is not a model ?
+Ans.11. It is a lazy model.
+
+Q.1. What is Regression ? What is Classification ?
+Ans. Regression : Target variable continous.
+		Classification : Target variable is discrete
+		
+Q.2. What are the error metrics used for both of them ?
+Ans. Regression : SSE
+		Classification : Confusion metrics
+		
+Q.3. Why Accuracy does not help when there is a class imbalance ?
+Ans. Because accuracy gets drawn by the majority class.
+
+Q.4. How to handle class imbalance ?
+Ans. 1. Use performance metrics as Area Under ROC Curve
+	2. Penalize Algorithms
+	3. Use Tree-Based Algorithms like RF, Gradient Boosted Trees
+	
+Q.5. What is knn ?
+Q.6. What is k-means ?
+K-nearest neighbors is a classification algorithm, which is a subset of supervised learning.
+K-means is a clustering algorithm, which is a subset of unsupervised learning.
+
+Q) What is regularisation? How does Ridge regularisation penalise the weights of features in real world applications? Is Lasso a form of feature selection?
+
+1) what is the logic behind the python programs that were asked
+2) what is softmax function.. explain mathematically
+3) what is auc curve.. write a function to plot that.. what is the X axis and y axis
+4) a few questions on decision tree.
+5) Random forest
+6) let's say a dice is biased and probability of even number is twice of odd.. what is the expected sum of numbers in nice for 100,000 experiments.
+7) how to control over fit in different models
+8) how do you know linear regression model is doing well..
+9) what does coefficients of logistic regression mean?
+10) what is odds? 
+11) what is idf
+12) what is elbow curve in k means clustering
+13) what is R square and explain mathematical equations
+14) how does rules get extracted in decision tree
+15) what is homogenity
+16) explain the project you have worked...
+17) how do you detect outliers.
+18) how does box plot get plotted..the whiskers and all.. how do you detect outliers there
+19)do you know how to use regular expressions.. tell me how you would extract to email address from the email
+
+Q.1. What is the formula for logit in logistic regression ?
+Q.2. What is the meaning of logit ?
+Q.3. What is meant by bias and variance ?
+Q.4. How to detect outliers ? Once they are detected how to handle them ?
+Q.5. Does Q2 in box plot represent mean or median ?
+Q.6. Walk me through the process of data analysis once you receive data from your client.
+Q.7. What is confusion matrix ?
+Q.8. Formula for accuracy and what does it mean ?
+Q.9. What is OOB error in Decision Tree ?
+Q.10. What is meant by pruning ?
+Q.11. How to standardize using z score ?
+Q.12. What is bagging ? Give examples.
+Q.13. Which is better bagging or boosting ? And in which kind of scenarios.
+Q.14. What does the ROC curve represent ?
+Q.15. What does the cut-off signify in ROC curve ?
+Q.16. What to do if many features are correlated ?
+Q.17. What is Single Value Decomposition ?
+Q.18. What is co-variance ? How to calculate it ?
+Q.19. How to interpret correlation plot ?
+Q.20. What other plots do you use to gain insight from the data ?
+Q.21. What does the following plots signify - Bar plots, histograms, scatter plots
+Q.22. Explain slope in logistic regression equation.
+Q.23. What is Principal Component Analysis ? What is the resultant that you get after doing PCA ?
+
+Q.1. What is supervised and unsupervised learning ?
+Q.2. How to form clusters ? How to create centroid ?
+Q.3. What is knn ? How to determine k ?
+Q.4. What is bias vs variance ?
+Q.5. What is overfitting in general ? How to determine if knn is overfitting ?
+Q.6. Measures to counter overfitting.
+Q.7. What action needs to be taken if there is multi-collinearity ?
+Q.8. What is Precision ? Recall ?
+Q.9. Which one is more important ? in which scenarios ?
+Q.10. ROCR curve
+Q.11. Lambdas in Python
+Q.12. List comprehension in Python
+14.what is clustering and explain various clustering algorithms
+15. Write psudo code of Density based clustering
+16.Have you ever worked on SVM ? tell me the advantages
+17. What is the node entropy
+18. How is Rnadom forest is different from Xgboost
+19. What are the most significant parameters for the xgboost
+20 Why you preferr XG boost for both Liner and logistic
+21. What is PCA
+22. I applied PCA on 50 features and how many new feature will I get
+23 WHat is Eigan vector
+24. How you deploy your model into production
+25. What Hadoop cluster you are using
+Q.1. What is Decision Tree ? How to split ? How does decision tree work ?
+Q.2. What does each node contain in a Decision Tree ?
+Q.3. What is Entropy and Genie Index and how does it help ?
+Q.4. What is Random Forest ? What is Random in Random Forest ? How to calculate OOB Error ?
+Q.5. How does random forest work ?
+Q.6. Explain the entire process from the point you get the data till you reach the final stage of prediction.
+Q.7. How does knn work ? Which distance algorithm to use in knn when data is categorical ?
+Q.8. You have 10 documents. Each topic has been tagged with a topic. Once a new document comes, how to tag it to one of those topics ?
+
+Q.1. What is a logit in logistic regression ?
+Q.2. How to classify 3 or more classes in logistic regression ?
+Q.3. What is regularization ?
+Q.4. Difference between Lasso (L1 regularization) & Ridge (L2 regularization).
+Q.5. If a problem is given how do you decide the Null Hypothesis ? What are the next steps ?
+Q.6. Difference between supervised and unsupervised learning.
+Q.7. What is hyper-parameter tuning ? How to tune a Random Forest ?
+Q.8. What is SVM ?
+Q.9. What is ensemble learning ?
+Q.10. Difference between bagging and boosting. Give examples of both and explain why.
+Q.11. How to go about missing values ?
+Q.12. When do you drop a particular column containing missing values ?
+Q.13. What is PCA ?
+Q.14. Difference between bias and variance.
+Q.15. How to reduce bias in random forest ?
+Q.16. How to select a cutoff value in ROCR curve ?
+Q.17. What does the x-axis and y-axis represent in ROCR curve ?
+Q.18. Once a dataset is given, what are the next steps before using machine learning algorithms ?
+Q.19. How to increase the performance of a machine learning algorithm ?
+Q.20. What is OOB error in Random forest ?
+Q.21. How does boosting help as compared to bagging ?
+Q.22. What is XGBoost ?
+
+
+1.	What is a Normal distribution?
+2.	What are other types of distributions?
+3.	Why we assume in linear regression that errors are normally distributed?
+4.	What are the ways to standardize data?
+5.	How do you tackle missing values?
+6.	Difference between supervised and unsupervised learning?
+7.	Describe complete machine learning Pipeline from raw data to final model?
+8.	How do you tackle imbalanced classes? (Up sampling/down sampling/class weights / Generating synthetic data (SMOTE etc.)/ changing evaluation metrics)
+9.	What are the metrics used for regression & classifications?
+10.	Why we accuracy does not work for imbalance classes?
+11.	What is precision /recall /AUC /TPR/FPR etc..
+12.	What is linear Regression?
+13.	What is logistic Regression?
+14.	Why standardization is required for linear models?
+15.	How does outliers effect are models?
+16.	What if we do not do standardize the data while creating linear models?
+17.	Why Gradient descent if linear regression can be solved using matrix multiplications/factorization?
+18.	How do I create linear models if I have very high dimensional data? (Regularization solves this but mostly want to listen PCA/ removing correlated variables etc.)
